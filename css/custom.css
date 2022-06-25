@@ -1,0 +1,58 @@
+*{padding: 0; margin: 0; border: 0; letter-spacing: 0.01em;}
+
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+html{scroll-behavior: smooth;}
+input,button,textarea{font-family: inherit; font-size: inherit; color: inherit; background: none;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer; background: none;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a, a:hover, a:visited{text-decoration: none; color: inherit;}
+ul, menu{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight: 400;}
+
+/* Правильное расположение footer внизу страницы */
+body{
+	background: var(--main-black);
+	color: var(--main-white);
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* Стили контейнеров */
+.container, .large_container{width: 100%; max-width: calc(1038px + 134px); margin: 0 auto; padding: 0 67px;}
+.large_container{max-width: 1440px;}
+@media screen and (max-width: 918px) {
+	.container, .large_container{padding: 0 71px 0 67px;}
+}
+@media screen and (max-width: 700px) {
+	.container, .large_container{max-width: calc(1038px + 34px); padding: 0 17px;}
+}
+
+/* Переменные */
+:root{
+	--main-white: #FFFFFF;
+	--main-black: #272A2F;
+	--main-blue: #19849B;
+	--main-bg-blue: rgba(25, 132, 155, 0.3);
+	--main-input-bg-blue: #324B53;
+	--main-bg-dark-blue: #16758A;
+}

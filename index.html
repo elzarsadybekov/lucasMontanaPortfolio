@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang='ru'>
+<head>
+    <title>Lucas Montana</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hey. I'm Lucas And I'm a professional photographer">
+    <!-- ====================S C R I P T===================== -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js'></script>
+    <!-- ====================F O N T==================== -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- ====================S T Y L E==================== -->
+    <link href='css/custom.css' rel='stylesheet' />
+    <link href='css/style.css' rel='stylesheet' />
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <main class="content">
+        
+    </main>
+   
+    <script src="js/script.js"></script>
+</body>
+</html>
+<body>
+    <header class="header">
+        <h1 class="heading title"><a href="index.html">Lucas Montana</a></h1>
+    </header>
+    <main class='content'>
+        <section class="main">
+            <div class="main__container container">
+                <div class="main__image">
+                    <picture>
+                        <source srcset="img/foto_2.png" media="(max-width: 918px)">
+                        <img src="img/foto_1.png" alt="my foto">
+                    </picture>
+                </div>
+                <div class="main__content">
+                    <h2 class="main__title title">Hey. I'm Lucas<br/>And I'm a professional photographer</h2>
+                    <h3 class="main__subtitle title">Curabitur blanit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. </h3>
+                    <p class="main__text">Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligulas semper. Cum sociis natoque penatibus et magnis maecenas. Donec ullamcorper nulla non metus auctor fringilla. </p>
+                    <button class="main__button button" id="openModal">contact me</button>
+                </div>
+            </div>
+            <div class="main__modal main-background">
+                <form action="" class="main__form">
+                    <h3 class="main__modal-title title">Contact me</h3>
+                    <p class="main__modal-text">Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                    <div class="main__inputs">
+                        <input type="text" id="name" class="main__input" placeholder="Your name...">
+                        <input type="email" id="email" class="main__input" placeholder="Your email...">
+                        <textarea name="message" id="message" class="main__textarea info__input">Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. Fu blandit tempus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vollis  commodo luctus. Curabitur blandit. Morbi leo risus, porta ac consectetur ac, at eros.</textarea>
+                    </div>
+                    <button class="main__form-button button" id="sendMessage">Send message</button>
+                </form>
+            </div>
+        </section>
+        <section class="section-portfolio">
+            <div class="section-portfolio__container container">
+                <h2 class="section-portfolio__title title">Portfolio</h2>
+                <p class="section-portfolio__text">Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                <ul class="section-portfolio__list">
+                    <li class="section-portfolio__item"><img src="img/portfolio_1.png" alt="portfolio image" class="section-portfolio__image"></li>
+                    <li class="section-portfolio__item"><img src="img/portfolio_2.png" alt="portfolio image" class="section-portfolio__image"></li>
+                    <li class="section-portfolio__item"><img src="img/portfolio_3.png" alt="portfolio image" class="section-portfolio__image"></li>
+                    <li class="section-portfolio__item"><img src="img/portfolio_4.png" alt="portfolio image" class="section-portfolio__image"></li>
+                    <li class="section-portfolio__item"><img src="img/portfolio_5.png" alt="portfolio image" class="section-portfolio__image"></li>
+                    <li class="section-portfolio__item"><img src="img/portfolio_6.png" alt="portfolio image" class="section-portfolio__image"></li>
+                    <li class="section-portfolio__item"><img src="img/portfolio_7.png" alt="portfolio image" class="section-portfolio__image"></li>
+                    <li class="section-portfolio__item"><img src="img/portfolio_8.png" alt="portfolio image" class="section-portfolio__image"></li>
+                </ul>
+            </div>
+            <div class="section-portfolio__modal main-background">
+                <div class="section-portfolio__content">
+                    <button class="section-portfolio__button button" id="closeModal">close</button>
+                    <div class="section-portfolio__modal-image"><img src="img/portfolio_1.png" alt="modal image"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__image"><img src="img/foto_1.png" alt="my foto"></div>
+            <div class="footer__navigation">
+                <h2 class="footer__title title">Lucas Montana</h2>
+                <div class="footer__phone-number">+4 768 25 25 255</div>
+                <div class="footer__address">Poland, Warsaw</div>
+            </div>
+        </div>
+        <div class="footer__copyright">All rights reserved. “World Photos”, Inc</div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
